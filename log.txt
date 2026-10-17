@@ -1,0 +1,37 @@
+2026-10-13 12:00:10,563 [INFO] Cross-city validation over cities: ['sh', 'hz', 'cq', 'jl', 'yt'] (30 seeds, 10 tuning seeds per candidate)
+2026-10-13 12:00:10,564 [INFO] === City sh: calibration ===
+2026-10-13 12:00:28,975 [INFO] Day-stratified sample of delivery_sh.csv: 100001 rows (frac=0.067, 184 days)
+2026-10-13 12:00:50,417 [INFO] Day-stratified sample of pickup_sh.csv: 49978 rows (frac=0.035, 177 days)
+2026-10-13 12:00:55,947 [INFO] Trajectory-dwell service time: 3.54 +/- 4.24 min
+2026-10-13 12:00:56,244 [INFO] Speed estimate: 12.25 +/- 10.67 km/h (estimated (city trajectory GPS))
+2026-10-13 12:01:44,973 [INFO] sh: calibrated pickup overhead 43.6 min (empirical accept-to-delivery 84.6, travel 37.5, service 3.5)
+2026-10-13 12:01:44,974 [INFO] sh: fleet ded=36 crowd_max=74, arrival scale=2.000
+2026-10-13 12:19:19,085 [INFO] === City hz: calibration ===
+2026-10-13 12:19:42,004 [INFO] Day-stratified sample of delivery_hz.csv: 99997 rows (frac=0.054, 184 days)
+2026-10-13 12:20:12,968 [INFO] Day-stratified sample of pickup_hz.csv: 50002 rows (frac=0.023, 184 days)
+2026-10-13 12:20:18,560 [INFO] Scaled empirical service time: 20.00 +/- 19.50 min
+2026-10-13 12:20:18,836 [INFO] Speed estimate: 11.64 +/- 10.13 km/h (assumed (shared sh trajectory x city factor 0.95))
+2026-10-13 12:21:18,709 [INFO] hz: calibrated pickup overhead 61.5 min (empirical accept-to-delivery 113.2, travel 31.7, service 20.0)
+2026-10-13 12:21:18,709 [INFO] hz: fleet ded=59 crowd_max=122, arrival scale=2.000
+2026-10-13 12:37:29,897 [INFO] === City cq: calibration ===
+2026-10-13 12:37:40,847 [INFO] Day-stratified sample of delivery_cq.csv: 99996 rows (frac=0.107, 184 days)
+2026-10-13 12:38:00,019 [INFO] Day-stratified sample of pickup_cq.csv: 50022 rows (frac=0.043, 184 days)
+2026-10-13 12:38:05,375 [INFO] Scaled empirical service time: 20.00 +/- 18.98 min
+2026-10-13 12:38:05,648 [INFO] Speed estimate: 9.80 +/- 8.53 km/h (assumed (shared sh trajectory x city factor 0.80))
+2026-10-13 12:38:35,751 [INFO] cq: calibrated pickup overhead 97.3 min (empirical accept-to-delivery 129.9, travel 12.6, service 20.0)
+2026-10-13 12:38:35,751 [INFO] cq: fleet ded=67 crowd_max=140, arrival scale=2.000
+2026-10-13 12:58:36,053 [INFO] === City jl: calibration ===
+2026-10-13 12:58:41,144 [INFO] Day-stratified sample of pickup_jl.csv: 50004 rows (frac=0.191, 184 days)
+2026-10-13 12:58:46,361 [INFO] Scaled empirical service time: 20.00 +/- 20.08 min
+2026-10-13 12:58:46,634 [INFO] Speed estimate: 11.02 +/- 9.60 km/h (assumed (shared sh trajectory x city factor 0.90))
+2026-10-13 12:58:47,964 [INFO] jl: calibrated pickup overhead 108.8 min (empirical accept-to-delivery 138.7, travel 9.9, service 20.0)
+2026-10-13 12:58:47,965 [INFO] jl: fleet ded=37 crowd_max=77, arrival scale=0.524
+2026-10-13 13:02:39,725 [INFO] === City yt: calibration ===
+2026-10-13 13:02:42,954 [INFO] Day-stratified sample of delivery_yt.csv: 100009 rows (frac=0.484, 184 days)
+2026-10-13 13:03:00,637 [INFO] Day-stratified sample of pickup_yt.csv: 50019 rows (frac=0.044, 184 days)
+2026-10-13 13:03:05,778 [INFO] Scaled empirical service time: 20.00 +/- 18.48 min
+2026-10-13 13:03:06,050 [INFO] Speed estimate: 11.64 +/- 10.13 km/h (assumed (shared sh trajectory x city factor 0.95))
+2026-10-13 13:03:13,119 [INFO] yt: calibrated pickup overhead 108.7 min (empirical accept-to-delivery 145.6, travel 17.0, service 20.0)
+2026-10-13 13:03:13,119 [INFO] yt: fleet ded=149 crowd_max=297, arrival scale=1.695
+2026-10-13 13:47:49,800 [INFO] Cross-city results saved to /tmp/zkl/IOPwork/output/cross_city.xlsx (6459.2s)
+2026-10-13 13:47:49,817 [INFO] All done in 21270.1s
